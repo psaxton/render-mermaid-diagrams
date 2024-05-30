@@ -1,11 +1,11 @@
 {
   "name": "render-mermaid-diagrams",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates png images for **/*.mmd mermaid documents.",
   "readme": "Use `npm run render` from `docs/` each time an .mmd file is updated.",
   "main": "render-mermaid-diagrams.js",
   "bin": {
-    "render-mermaid-diagrams": "render-mermaid-diagrams.js"
+    "render-mermaid-diagrams": "./render-mermaid-diagrams.js"
   },
   "scripts": {
     "start": "node render-mermaid-diagrams.js"
