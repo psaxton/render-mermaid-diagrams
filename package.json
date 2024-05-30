@@ -1,0 +1,16 @@
+{
+  "name": "render-mermaid-diagrams",
+  "version": "1.0.0",
+  "description": "Generates png images for **/*.mmd mermaid documents.",
+  "readme": "Use `npm run render` from `docs/` each time an .mmd file is updated.",
+  "main": "render-mermaid-diagrams.js",
+  "scripts": {
+    "start": "node render-mermaid-diagrams.js"
+  },
+  "author": "Philip Saxton <psaxton@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.9.1",
+    "glob": "^10.4.1"
+  }
+}
