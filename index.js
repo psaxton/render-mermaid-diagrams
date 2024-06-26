@@ -3,7 +3,7 @@
 const { exec } = require('child_process');
 const { globSync } = require('glob');
 const path = require('path');
-const mermaidCli = path.join('node_modules', '.bin', 'mmdc');
+const mermaidCli = path.join(__dirname, '..', '.bin', 'mmdc');
 
 globSync('**/*.mmd').forEach(file => {
   const command = `${mermaidCli} -t forest -i ${file} -o ${file}.png`;
